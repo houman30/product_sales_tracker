@@ -1,19 +1,18 @@
 import datetime
 import csv
 
-def link(id):
-    device_mapping = {
-        'P0001': 'Wireless Headphones',
-        'P0002': 'Laptop Backpack',
-        'P0003': 'Bluetooth Speaker',
-        'P0004': 'Laptop Backpack',
-        'P0005': 'Mobile Phone Case',
-        'P0006': 'Wireless Mouse',
-        'P0007': 'Laptop Stand',
-        'P0008': 'HDMI Cable',
-        'P0009': 'Smartphone',
-        'P0010': 'External Hard Drive'
-    }
+device_mapping = {
+    'P0001': {'name': 'Wireless Headphones', 'price': '100'},
+    'P0002': {'name': 'Laptop Backpack', 'price': '60'},
+    'P0003': {'name': 'Bluetooth Speaker', 'price': '60'},
+    'P0004': {'name': 'Laptop Backpack', 'price': '20'},
+    'P0005': {'name':'Mobile Phone Case', 'price': '15'},
+    'P0006': {'name':'Wireless Mouse', 'price': '30'},
+    'P0007': {'name':'Laptop Stand', 'price': '40'},
+    'P0008': {'name':'HDMI Cable', 'price': '15'},
+    'P0009': {'name':'Smartphone', 'price': '600'},
+    'P0010': {'name':'External Hard Drive', 'price': '100'}
+}
 
 
 
